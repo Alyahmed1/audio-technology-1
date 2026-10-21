@@ -77,9 +77,19 @@ button {
 
 .logo-plate {
   display: flex;
-  align-items: center;
-  gap: 14px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
   margin-bottom: 12px;
+}
+
+.logo-audio-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: #fff;
 }
 
 .logo-plate img {
@@ -89,8 +99,9 @@ button {
 }
 
 .logo-plate .logo-audio {
-  height: 46px;
-  max-width: 168px;
+  width: 100%;
+  height: auto;
+  max-height: 72px;
   object-fit: contain;
 }
 
