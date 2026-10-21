@@ -131,9 +131,8 @@ export default function App() {
       <aside className="sidebar">
         <div className="brand">
           <div className="logo-plate">
-            <span className="logo-audio-wrap">
-              <img className="logo-audio" src="/logos/we.png" alt="Audio Technology" />
-            </span>
+            <img className="logo-audio on-dark" src="/logos/audio.png" alt="Audio Technology" />
+            <img className="logo-audio on-light" src="/logos/audio-ink.png" alt="Audio Technology" />
             <img className="logo-aveva" src="/logos/aveva.png" alt="AVEVA" />
           </div>
           <h1>Smart Airport City</h1>
