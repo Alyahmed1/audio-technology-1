@@ -133,7 +133,6 @@ export default function App() {
           <div className="logo-plate">
             <img className="logo-audio on-dark" src="/logos/audio.png" alt="Audio Technology" />
             <img className="logo-audio on-light" src="/logos/audio-ink.png" alt="Audio Technology" />
-            <img className="logo-aveva" src="/logos/aveva.png" alt="AVEVA" />
           </div>
           <h1>Smart Airport City</h1>
         </div>
